@@ -1,0 +1,255 @@
+body {
+  background-color: #f4f2f2;
+  font-family: 'Muli', Arial, sans-serif;
+}
+
+#container-main{
+  margin-left:-15px;
+  margin-right:-15px;
+}
+
+#container-login{
+  margin-top:100px;
+}
+
+
+.card-header-hostname{
+  text-align:right;
+}
+/* footer */
+footer {
+  line-height: 40px;
+  bottom: 0;
+  position:absolute;
+  background-color:white;
+  width:100%;
+  height:40px;
+  /* border-top: 1px solid;
+  border-top-color: #e5e5e5; */
+}
+
+
+/* top navbar */
+#navbar-top{
+  background-color: #f4f2f2 !important;
+  border-bottom: 1px solid;
+  border-bottom-color: #e5e5e5;
+}
+
+
+#navbar-top a {
+  color:#8e8e8e;
+  text-transform: uppercase;
+  font-size:12px;
+  font-weight:400;
+  letter-spacing:2px;
+  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+}
+
+
+/* Sidebar details */
+
+#sidebar-column {
+  background-color:white;
+  border-right: 1px solid;
+  border-right-color: #e5e5e5;
+  min-height: 100vh;
+
+}
+
+
+#sidebar-header{
+    padding:20px;
+    font-size:18px;
+    text-align:center;
+    font-weight:400;
+    line-height:30px;
+    margin-bottom:20px;
+}
+
+#sidebar-header-logo img {
+  width:80%;
+}
+
+#login-submit{
+  width:100%;
+}
+
+#sidebar-header-title{
+  margin-top:10px;
+  color:#8e8e8e;
+  font-size:16px;
+  font-weight:200;
+  letter-spacing:2px;
+  text-transform: uppercase;
+}
+
+#sidebar-header-split{
+  margin-top:15px;
+  border-bottom:1px solid;
+  border-bottom-color: #e5e5e5;
+}
+
+#sidebar-content {
+  color:#8e8e8e;
+  margin-left:10%;
+}
+
+#sidebar-content-small {
+  color:#8e8e8e;
+  margin-left: 30%;
+}
+
+#sidebar li a {
+  color:#8e8e8e;
+  text-transform: uppercase;
+  font-size:14px;
+  font-weight:400;
+  letter-spacing:1px;
+  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+}
+
+#sidebar li a:hover {
+  color:#fbb740;
+  text-decoration: none;
+}
+
+
+#sidebar li a i {
+  font-size:20px;
+}
+
+.sidebar-category{
+  font-size:16px;
+  text-transform: uppercase;
+
+}
+
+#sidebar li {
+  /* margin-left:20px; */
+  margin-top:20px;
+}
+
+
+/* buttons */
+.btn-info{
+  border-color: #e5e5e5;
+  background-color:white;
+  color:#fbb740;
+}
+
+.badge-ing{
+  border-color: #e5e5e5;
+  background-color:#fbb740;
+  color: white;
+}
+
+.active-ing{
+  border-color: #e5e5e5;
+  background-color:#fbb740;
+  color: white;
+}
+
+.active-ing > .badge-ing {
+  background-color:white;
+  color: #fbb740;
+}
+
+
+.btn-info:hover{
+  border-color: #e5e5e5;
+  background-color: #fbb740;
+  color:white;
+}
+
+.btn-info.active  {
+  border-color: #e5e5e5 !important;
+  background-color: #fbb740 !important;
+  color:white !important;
+}
+
+
+/* Alert popup */
+#generic-warning-popup{
+  background-color: #fbb740;
+  position:absolute;
+  right:20px;
+  z-index:100;
+  color:white;
+  display: none;
+}
+
+#generic-success-popup{
+  background-color: #fbb740;
+  position:absolute;
+  right:20px;
+  z-index:100;
+  color:white;
+  display: none;
+}
+
+/* Bootstrap card adjustments  */
+
+.mitre-card {
+  margin-top:10px;
+}
+
+.card-header {
+  background-color:white;
+  color: #8e8e8e;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+}
+
+.card-title {
+  background-color:white;
+  color: #8e8e8e;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Muli', "Helvetica", Arial, sans-serif;
+}
+
+.mitre-card .fa-info {
+  float:right;
+}
+.card-nopadding {
+  padding:0px;
+}
+
+.top-10 {
+  margin-top: 10px;
+}
+
+.top-25 {
+  margin-top: 25px;
+}
+
+.height-320 {
+  height: 320px;
+}
+
+select{
+  -webkit-appearance:none;
+}
+
+.recipe-column{
+  background-color:white;
+  padding:0px;
+  /* border-left: 1px solid;
+  border-left-color: grey;
+  border-right: 1px solid;
+  border-right-color: grey; */
+}
+
+#recipes-col {
+  padding: 30px;
+}
+
+.recipe-card{
+  height:100%;
+}
