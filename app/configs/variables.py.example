@@ -2,7 +2,7 @@
 from app import app
 from app.functions_generic import Generic
 
-app.config['SECRET'] = "Some Random Key"
+app.config['SECRET_KEY'] = "Some Random Key"
 app.config['MONGODB_SETTINGS'] = {
     'db': 'example_project',
     'host': '127.0.0.1'.
