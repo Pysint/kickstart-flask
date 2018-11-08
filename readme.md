@@ -34,7 +34,7 @@ Activate virtual environment:
 
 Install dependecies:
 
-  `pip install -r requirements.txt`
+  `pip3 install -r requirements.txt`
 
 Then edit the config to your likings: 
 
