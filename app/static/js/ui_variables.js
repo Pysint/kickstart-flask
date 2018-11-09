@@ -1,4 +1,4 @@
 var global_namespace = {
-  'generic_seting': 'Test'
+  'generic_seting': 'Test',
   'ui_overview': 'Another Test'
 };
